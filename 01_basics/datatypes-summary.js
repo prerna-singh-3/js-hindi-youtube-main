@@ -17,7 +17,22 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
+const bigNumber = 345262712782n
+
 
 // 2) Reference Data Type/Non-primitive Data Type (Memory mein refernce directly allocate kiya jata hai)
 
 // Array, Objects, Functions
+
+const heroes = ["shaktiman", "nagraj", "doga"]
+
+let myObj = {
+    name: "prerna",
+    age: 21,
+}
+
+const myFunction = function(){
+    console.log("Hello World"); 
+}
+
+console.log(typeof anotherId);
